@@ -3,7 +3,7 @@
 """
 Created on Sat Jul 23 11:41:18 2022
 
-@author: junevolkmann
+@author: Psithurial
 """
 
 #interface
@@ -11,8 +11,8 @@ import random
 
 #file read
 import os.path
-fPath = "/home/junevolkmann/Downloads/"
-address = fPath + "dataset_163_4.txt"
+fPath = ""
+address = fPath + ""
 exists = os.path.exists(address)
 if exists:
   file = open(address, 'r', encoding='utf-8-sig')
